@@ -67,14 +67,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "d0a5c400df2834b80a4c3327b3aad3a4c4cd4de0629063962b03235697506a28"
 
 [[package]]
-name = "drawing"
-version = "0.1.0"
-dependencies = [
- "rand 0.8.5",
- "raster",
-]
-
-[[package]]
 name = "either"
 version = "1.15.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -104,6 +96,14 @@ name = "fuchsia-cprng"
 version = "0.1.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "a06f77d526c1a601b7c4cdd98f54b5eaabffc14d5f2f0296febdc7f357c6d3ba"
+
+[[package]]
+name = "geometrical_shapes"
+version = "0.1.0"
+dependencies = [
+ "rand 0.8.5",
+ "raster",
+]
 
 [[package]]
 name = "getrandom"
